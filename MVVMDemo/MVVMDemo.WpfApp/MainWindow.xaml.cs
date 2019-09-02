@@ -24,5 +24,10 @@ namespace MVVMDemo.WpfApp
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NowTimeText.Text = DateTime.Now.ToString();
+        }
     }
 }
