@@ -9,7 +9,7 @@
     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center"  VerticalAlignment="Center" Height="50">
         <Button Content="Get Now Time" Click="Button_Click" Width="200"/>
         <Border BorderBrush="Blue" BorderThickness="2" Width="200" Margin="10,0,0,0">
-            <TextBlock x:Name="NowTimeText"/>
+            <TextBlock x:Name="NowTimeText" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
     </StackPanel>
 </Window>
